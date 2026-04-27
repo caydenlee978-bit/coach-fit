@@ -38,6 +38,8 @@ struct ContentView: View {
                 Label("Profile", systemImage: "person.crop.circle.fill")
             }
         }
+        .tint(.mint)
+        .background(Color.black.ignoresSafeArea())
     }
 }
 
